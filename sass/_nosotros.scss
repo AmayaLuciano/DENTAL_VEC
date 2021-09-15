@@ -1,0 +1,51 @@
+/* Dentistas */
+.dentistas{
+    display: flex;
+    justify-content: space-around;
+
+    .card{
+        padding: 5px;
+        border-radius: 15px;
+        margin-top: 20px;
+    }
+}
+
+.tituloDentistas{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    color: #35739c;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.tituloCarrusel{
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+    align-content: center;
+    color: #35739c;
+}
+
+.carrusel{
+    margin-top: 50px;
+    padding: 20px;
+}
+
+@media (max-width:768px) {
+    .dentistas{
+        flex-direction: column;
+    }
+
+    .dentistas .card{
+        margin-top: 55px;
+    }
+}
+
+@media (min-width:768px) {
+    .carrusel{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}

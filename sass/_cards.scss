@@ -1,0 +1,58 @@
+/* Cards */
+.titulo h2{
+    text-align: center;
+    color: #49718b;
+    font-size: 40px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+section{
+    display: grid;
+    place-items: center center;
+}
+
+#miContenedor{
+    .card.gradient{
+        background: $gradient;
+    }
+    
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    padding: 20px;
+    grid-gap: 40px;
+}
+
+.cards__card{
+    background-image: linear-gradient(to bottom,#c9efff, #61b4ef);
+    border-radius: 20px;
+    box-shadow: 0 0 30px  #acb6e5;
+}
+
+.card__container{
+    position: relative;
+}
+
+.card__image{
+    width: 100%;
+    display: block;
+    border-radius: 20px 20px 0 0;
+}
+
+.card__texto{
+    padding: 20px 10px;
+    text-align: center;
+    h3{
+        color: #49718b;
+    font-weight: 600;
+    font-size: 25px;
+    margin: 10px 0 15px 0;
+    }
+    p{
+    color: #49718b;
+    font-size: 17px;
+    }
+}

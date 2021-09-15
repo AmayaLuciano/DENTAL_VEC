@@ -1,0 +1,22 @@
+@import "variables";
+
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+@import "header";
+
+@import "main";
+
+@import "cards";
+
+@import "footer";
+
+@import "contacto";
+
+@import "nosotros";
