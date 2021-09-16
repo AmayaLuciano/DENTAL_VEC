@@ -64,7 +64,7 @@
   list-style: none;
 }
 
-.menu__list_link :hover {
+.menu__list_link:hover {
   color: white;
 }
 
@@ -493,7 +493,7 @@ section {
   padding: 20px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 870px) {
   .dentistas {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -509,6 +509,88 @@ section {
   .carrusel {
     padding-left: 50px;
     padding-right: 50px;
+  }
+}
+
+.testimonials {
+  padding: 40px 0;
+  background: #f1f1f1;
+  color: #434343;
+  text-align: center;
+}
+
+.inner {
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  padding: 10px 20px;
+}
+
+.border {
+  width: 160px;
+  height: 5px;
+  background: #6ab04c;
+  margin: 25px auto;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.col {
+  -webkit-box-flex: 33.33%;
+      -ms-flex: 33.33%;
+          flex: 33.33%;
+  max-width: 33.33%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 15px;
+}
+
+.testimonial {
+  background: #fff;
+  padding: 30px;
+}
+
+.testimonial img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+.stars {
+  color: #6ab04c;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 960px) {
+  .col {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .col {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+    max-width: 100%;
   }
 }
 /*# sourceMappingURL=estilos.css.map */
