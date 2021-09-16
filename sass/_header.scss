@@ -5,6 +5,8 @@
     justify-content: space-around;
     padding: 30px 10px 15px 0;
     width: 100%;
+    text-decoration: none;
+    list-style: none;
     background-image: linear-gradient(to right,#c9efff, #61b4ef);
     label{
         display: none;
@@ -14,7 +16,8 @@
         padding: 10px;
     }
     label:hover{
-        cursor:pointer;
+        cursor: pointer;
+        color:#fff;
         background-color: #61b4ef;
     }
 }
@@ -33,6 +36,7 @@
     list-style: none;
     padding: 0;
     display: flex; 
+    text-decoration: none;
 }
 
 .menu__list_link{
@@ -40,6 +44,7 @@
     padding: 15px 20px;
     color: #35739c;
     text-decoration: none;
+    list-style: none;
     :hover{
         color: white;
     }
@@ -48,6 +53,8 @@
 .menu__list__item:hover{
     background-color: #35739c;
     border-radius: 15px;
+    color: #fff;
+
 }
 
 @media  (min-width:768px) {

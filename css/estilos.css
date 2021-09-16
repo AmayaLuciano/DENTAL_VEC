@@ -17,6 +17,8 @@
       justify-content: space-around;
   padding: 30px 10px 15px 0;
   width: 100%;
+  text-decoration: none;
+  list-style: none;
   background-image: -webkit-gradient(linear, left top, right top, from(#c9efff), to(#61b4ef));
   background-image: linear-gradient(to right, #c9efff, #61b4ef);
 }
@@ -31,6 +33,7 @@
 
 .header label:hover {
   cursor: pointer;
+  color: #fff;
   background-color: #61b4ef;
 }
 
@@ -50,6 +53,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  text-decoration: none;
 }
 
 .menu__list_link {
@@ -57,6 +61,7 @@
   padding: 15px 20px;
   color: #35739c;
   text-decoration: none;
+  list-style: none;
 }
 
 .menu__list_link :hover {
@@ -66,6 +71,7 @@
 .menu__list__item:hover {
   background-color: #35739c;
   border-radius: 15px;
+  color: #fff;
 }
 
 @media (min-width: 768px) {
