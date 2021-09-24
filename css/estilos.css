@@ -21,6 +21,10 @@
   list-style: none;
   background-image: -webkit-gradient(linear, left top, right top, from(#c9efff), to(#61b4ef));
   background-image: linear-gradient(to right, #c9efff, #61b4ef);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 .header label {

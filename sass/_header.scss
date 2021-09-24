@@ -8,6 +8,9 @@
     text-decoration: none;
     list-style: none;
     background-image: linear-gradient(to right,#c9efff, #61b4ef);
+    position: sticky;
+    top: 0;
+    z-index: 1;
     label{
         display: none;
         margin-top: -50px;
@@ -56,6 +59,8 @@
     color: #fff;
 
 }
+
+
 
 @media  (min-width:768px) {
     .header{
