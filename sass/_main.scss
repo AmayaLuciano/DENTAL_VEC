@@ -28,6 +28,27 @@
     }
 }
 
+.complementario{
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .tituloComplementario{
+        color: #35739c ;
+    }
+
+    .textoComplementario{
+        color: rgb(87, 87, 87);
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 10px;
+        line-height: 1.5;
+        font-size: 18px;
+    }
+}
+
 .wave{
     height: 100px;
     width: 100%;
@@ -46,4 +67,27 @@
     .main__texto-imagen{
         width: 40%;
         }
+   
+}
+
+
+@media  (max-width:320px){
+    .complementario{
+        height: 1200px;
+    }
+    .textoComplementario{
+        height: 600px;
+    }
+}
+
+@media  (max-width:375px){
+    .complementario{
+        height: 800px;
+    }
+}
+
+@media  (max-width:425px){
+    .complementario{
+        height: 600px;
+    }
 }

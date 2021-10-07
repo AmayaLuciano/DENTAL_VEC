@@ -168,6 +168,37 @@
   color: #4398d0;
 }
 
+.complementario {
+  height: 400px;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.complementario .tituloComplementario {
+  color: #35739c;
+}
+
+.complementario .textoComplementario {
+  color: #575757;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  line-height: 1.5;
+  font-size: 18px;
+}
+
 .wave {
   height: 100px;
   width: 100%;
@@ -188,6 +219,27 @@
   }
   .main__texto-imagen {
     width: 40%;
+  }
+}
+
+@media (max-width: 320px) {
+  .complementario {
+    height: 1200px;
+  }
+  .textoComplementario {
+    height: 600px;
+  }
+}
+
+@media (max-width: 375px) {
+  .complementario {
+    height: 800px;
+  }
+}
+
+@media (max-width: 425px) {
+  .complementario {
+    height: 600px;
   }
 }
 
